@@ -1,0 +1,41 @@
+# ---- Java build files ----
+/target/
+*.class
+*.jar
+*.war
+
+# ---- Maven ----
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+/logs/
+*.log
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ---- IDEs ----
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+# VSCode
+.vscode/
+# Eclipse
+*.classpath
+*.project
+.settings/
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- OS-specific ----
+*.swp
+*.swo
+*~
+
+# ---- Application Secrets ----
+application.properties
+application.yml
+.env
